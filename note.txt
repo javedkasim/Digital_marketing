@@ -1,0 +1,32 @@
+npm create vite@latest
+
+npm init
+
+npm init
+
+npm run dev
+
+Router 
+
+1st npm install react-router-dom
+
+then main js m <app /> ko browserrouter se wrap krna and fr app.js me routes fr route krna 
+
+import { Route, Routes } from 'react-router-dom'
+
+
+  <Routes>
+    <Route path='/' element={ <Home /> } />
+    <Route path='/about' element={ <About /> } />
+    <Route path='/blog' element={ <Blog /> } />
+    <Route path='/contact' element={ <Contact /> } />
+    <Route path='/service' element={ <Services /> } />
+   </Routes>
+
+   fr navbar me 
+
+   Link import krke 
+   
+	<Link to={'about'}><a className="nav-link">About us</a></Link>
+
+    
