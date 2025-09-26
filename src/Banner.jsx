@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import bannerImage from "@/public/img/Home/banner-img.png"
 
 const Banner = () => {
   return (
@@ -16,7 +17,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img" >
-            <img src="public/img/home/banner-img.png" className="img-fluid animated" alt="Banner Image" />
+            <img src={bannerImage} className="img-fluid animated" alt="Banner Image" />
           </div>
         </div>
       </div>
