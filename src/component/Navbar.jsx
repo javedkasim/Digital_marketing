@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logoImage from "../public/img/Home/logo.png"
 
 
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
 	<div className="container-fluid container-xl position-relative d-flex align-items-center">
 
 	  <a className="logo d-flex align-items-center me-auto">
-		 <Link to={'/'}><img src="public/img/home/logo.png" alt="Digital Marketing" classNameName='logo'/> 
+		 <Link to={'/'}><img src={logoImage} alt="Digital Marketing" classNameName='logo'/> 
 	  </Link></a>
 
 	  <nav id="navmenu" className="navmenu">

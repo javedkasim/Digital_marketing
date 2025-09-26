@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import aboutImage from "../public/img/Home/about.webp"
+
 const About = () => {
   return (
    <>
@@ -15,7 +17,7 @@ const About = () => {
 
         <div className="row gy-4">
           <div className="col-lg-6 position-relative align-self-start">
-            <img src="public/img/home/about.webp" className="img-fluid" alt="About us" />
+            <img src={aboutImage} className="img-fluid" alt="About us" />
           </div>
           <div className="col-lg-6 content">
             <h3>Digital and Web Development service provide.</h3>

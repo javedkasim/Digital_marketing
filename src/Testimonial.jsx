@@ -1,4 +1,6 @@
 import React from 'react'
+import testiImage from "../public/img/Home/client1.webp"
+
 
 const Testimonial = () => {
   return (
@@ -15,20 +17,20 @@ const Testimonial = () => {
                 <div className="carousel-inner" role="listbox">
                     <div className="carousel-item active">
                         <div className="testimonial4_slide">
-                            <img src="public/img/home/client1.webp" className="img-circle img-responsive" alt='Client 1 Profile Pic'/>
+                            <img src={testiImage} className="img-circle img-responsive" alt='Client 1 Profile Pic'/>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                             <h4>Client 1</h4>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="testimonial4_slide">
-                            <img src="public/img/home/client1.webp" className="img-circle img-responsive" alt='Client 2 Profile Pic'/><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <img src={testiImage} className="img-circle img-responsive" alt='Client 2 Profile Pic'/><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                             <h4>Client 2</h4>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="testimonial4_slide">
-                            <img src="public/img/home/client1.webp" className="img-circle img-responsive" alt='Client 3 Profile Pic'/>
+                            <img src={testiImage} className="img-circle img-responsive" alt='Client 3 Profile Pic'/>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                             <h4>Client 3</h4>
                         </div>

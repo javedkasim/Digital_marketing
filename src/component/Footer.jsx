@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logoImage from "../public/img/Home/logo.png"
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
 	  <div className="row gy-4">
 		<div className="col-lg-4 col-md-6 footer-about">
 		  <a href="index.html" className="d-flex align-items-center">
-			 <Link to={'/'}><img src="public/img/home/logo.png" alt="Digital Marketing" classNameName='logo'/> 
+			 <Link to={'/'}><img src={logoImage} alt="Digital Marketing" classNameName='logo'/> 
 </Link>
 		  </a>
 		  <div className="footer-contact pt-3">
