@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const softwareBaseUrl = axios.create({
-    baseURL:"http://localhost:5299/software",
+    baseURL:"https://digital-marketing-backend-5.onrender.com/software",
 
 });
